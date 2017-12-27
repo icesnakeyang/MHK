@@ -1,0 +1,21 @@
+<template name="phonePageTpl">
+    <div class="container">
+        <table class="table table-striped">
+            <caption>{{_ "phonePage.phonePageTile"}}</caption>
+            <thead>
+            <tr>
+                <th>名称</th>
+                <th>城市</th>
+                <th>管理</th>
+                <th>管理</th>
+                <th>管理</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#each phones}}
+                {{> phonePageRowTpl}}
+            {{/each}}
+            </tbody>
+        </table>
+    </div>
+</template>

@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "page_info": "设置页面",
+    "page_language": "当前语言"
+  },
+  "nav": {
+    "login": "登录",
+    "settings": "设置",
+    "signout": "登出",
+    "admin": "管理员",
+    "addPhone": "添加新手机"
+  },
+  "newPhone":{
+    "remark":"备注",
+    "IMEI":"IMEI",
+    "type":"型号",
+    "lastConnectTime":"最后连接时间",
+    "manage":"管理"
+  },
+  "common":{
+    "btSubmit":"提交"
+  },
+  "phonePage":{
+    "phonePageTile":"用户手机列表"
+  }
+}

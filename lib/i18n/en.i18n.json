@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "page_info": "Settings here",
+    "page_language": "Current language"
+  },
+  "nav": {
+    "login": "Sign in",
+    "settings": "Settings",
+    "signout": "Sign out",
+    "admin": "RPG Administrator",
+    "addPhone": "Add phone"
+  },
+  "newPhone":{
+    "remark":"Remark",
+    "IMEI":"IMEI",
+    "type":"Type",
+    "lastConnectTime":"Last Connect Time",
+    "manage":"Mange"
+  },
+  "common":{
+    "btSubmit":"Submit"
+  },
+  "phonePage":{
+    "phonePageTile":"Phones List"
+  }
+}
