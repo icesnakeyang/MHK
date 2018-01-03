@@ -21,6 +21,9 @@
     "btSubmit":"提交"
   },
   "phonePage":{
-    "phonePageTile":"用户手机列表"
+    "phonePageTile":"用户手机列表",
+    "btSMS":"已收到短信",
+    "btGPS":"GPS信息",
+    "btDelete":"删除该手机"
   }
 }

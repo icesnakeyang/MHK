@@ -21,6 +21,9 @@
     "btSubmit":"Submit"
   },
   "phonePage":{
-    "phonePageTile":"Phones List"
+    "phonePageTile":"Phones List",
+    "btSMS":"SMS",
+    "btGPS":"GPS",
+    "btDelete":"Delete"
   }
 }
