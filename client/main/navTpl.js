@@ -38,18 +38,5 @@ Template.navTpl.helpers({
             }
         }
         return false;
-    },
-
-    rpgSecretary:function () {
-        if (Meteor.user()) {
-            userRole = TypedUsers.findOne({
-                userId: Meteor.userId(),
-                'secretary.secretary': true
-            });
-            if(userRole){
-                return true;
-            }
-        }
-        return false;
     }
 });
