@@ -1,0 +1,20 @@
+<template name="smsPageTpl">
+    <div class="container">
+        <table class="table table-striped">
+            <caption>{{_ "SMS.smsTableTitle"}}</caption>
+            <thead>
+            <tr>
+                <th style="width:150px">{{_ "SMS.smsRowDate"}}</th>
+                <th>{{_ "SMS.smsRowContent"}}</th>
+                <th>{{_ "SMS.smsRowAddress"}}</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#each smsList}}
+                {{> smsPageRowTpl}}
+            {{/each}}
+            </tbody>
+        </table>
+    </div>
+
+</template>

@@ -1,0 +1,19 @@
+<template name="lbsPageTpl">
+    <div class="container">
+        <table class="table table-striped">
+            <caption>{{_ "LBS.lbsTableTitle"}}</caption>
+            <thead>
+            <tr>
+                <th style="width:150px">{{_ "LBS.lbsRowDate"}}</th>
+                <th>{{_ "LBS.longitude"}}</th>
+                <th>{{_ "LBS.latitude"}}</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#each lbsList}}
+                {{> lbsPageRowTpl}}
+            {{/each}}
+            </tbody>
+        </table>
+    </div>
+</template>

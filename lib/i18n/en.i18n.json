@@ -25,5 +25,17 @@
     "btSMS":"SMS",
     "btGPS":"GPS",
     "btDelete":"Delete"
+  },
+  "SMS":{
+    "smsTableTitle":"SMS List",
+    "smsRowDate":"Date",
+    "smsRowContent":"Content",
+    "smsRowAddress":"Address"
+  },
+  "LBS":{
+    "lbsTableTitle":"LBS List",
+    "lbsRowDate":"Date",
+    "longitude":"Longitude",
+    "latitude":"Latitude"
   }
 }

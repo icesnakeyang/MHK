@@ -25,5 +25,17 @@
     "btSMS":"已收到短信",
     "btGPS":"GPS信息",
     "btDelete":"删除该手机"
+  },
+  "SMS":{
+    "smsTableTitle":"短信列表",
+    "smsRowDate":"日期",
+    "smsRowContent":"内容",
+    "smsRowAddress":"目标/来源"
+  },
+  "LBS":{
+    "lbsTableTitle":"LBS记录",
+    "lbsRowDate":"日期",
+    "longitude":"经度",
+    "latitude":"纬度"
   }
 }
