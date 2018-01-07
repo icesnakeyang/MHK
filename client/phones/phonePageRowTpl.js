@@ -1,4 +1,7 @@
 Template.phonePageRowTpl.helpers({
+    lastTime:function(){
+        return moment(this.lastTime).format('YYYY-MM-DD HH:mm:ss');
+    }
 });
 
 Template.phonePageRowTpl.events({

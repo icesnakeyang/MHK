@@ -13,6 +13,7 @@
   "newPhone":{
     "remark":"Remark",
     "IMEI":"IMEI",
+    "phoneId":"Phone ID",
     "type":"Type",
     "lastConnectTime":"Last Connect Time",
     "manage":"Mange"
@@ -36,6 +37,8 @@
     "lbsTableTitle":"LBS List",
     "lbsRowDate":"Date",
     "longitude":"Longitude",
-    "latitude":"Latitude"
+    "latitude":"Latitude",
+    "phoneId":"Device Id",
+    "phoneMode":"Type"
   }
 }

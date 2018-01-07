@@ -13,6 +13,7 @@
   "newPhone":{
     "remark":"备注",
     "IMEI":"IMEI",
+    "phoneId":"设备编号",
     "type":"型号",
     "lastConnectTime":"最后连接时间",
     "manage":"管理"
@@ -36,6 +37,8 @@
     "lbsTableTitle":"LBS记录",
     "lbsRowDate":"日期",
     "longitude":"经度",
-    "latitude":"纬度"
+    "latitude":"纬度",
+    "phoneId":"设备编号",
+    "phoneMode":"设备类型"
   }
 }
