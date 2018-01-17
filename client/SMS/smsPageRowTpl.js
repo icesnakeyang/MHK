@@ -1,4 +1,4 @@
-Template.smsPageRow2Tpl.helpers({
+Template.smsPageRowTpl.helpers({
     date1:function(){
         let TimeNow = this.date*1;
         let newTime = new Date(TimeNow);
