@@ -7,12 +7,12 @@ Template.smsPageTpl.onCreated(function () {
 Template.smsPageTpl.helpers({
     smsList: function () {
         smss = UserSMS.find({
-            'data.uniqueID': this.phoneId
+            uniqueID: this.phoneId
         }, {sort:{createdTime:-1}}).fetch();
         var ss = new Array();
         var cc=0;
         for (var i of smss) {
-            for (var r of i.data.messageList) {
+            for (var r of i.SMS) {
                 ss.push(r);
                 cc++;
             }
