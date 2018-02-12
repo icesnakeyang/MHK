@@ -24,3 +24,6 @@ accounts-ui
 accounts-password
 useraccounts:bootstrap
 momentjs:moment
+http
+base64
+ostrio:base64

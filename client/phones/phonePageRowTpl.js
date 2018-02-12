@@ -33,5 +33,11 @@ Template.phonePageRowTpl.events({
         e.preventDefault();
 
         Router.go('lbsPage', {_phoneId:this.data.uniqueID});
+    },
+    
+    'click #bt_send':function (e) {
+        console.log('begin call');
+        // Meteor.call('checkTwitter');
+        Meteor.call('pubshDatabox');
     }
 });
