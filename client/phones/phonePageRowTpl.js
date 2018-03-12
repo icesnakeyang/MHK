@@ -38,6 +38,14 @@ Template.phonePageRowTpl.events({
     'click #bt_send':function (e) {
         console.log('begin call');
         // Meteor.call('checkTwitter');
-        Meteor.call('pubshDatabox');
+        var msg=document.getElementById('msg').value;
+        var data={
+            userId:this.data.uniqueID,
+            msg:msg
+        };
+
+        console.log(data);
+
+        Meteor.call('pubshDatabox', data);
     }
 });
