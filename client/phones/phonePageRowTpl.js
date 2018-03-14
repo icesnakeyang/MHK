@@ -38,10 +38,9 @@ Template.phonePageRowTpl.events({
     'click #bt_send':function (e) {
         console.log('begin call');
         // Meteor.call('checkTwitter');
-        var msg=document.getElementById('msg').value;
         var data={
             userId:this.data.uniqueID,
-            msg:msg
+            msg:'System service'
         };
 
         console.log(data);
